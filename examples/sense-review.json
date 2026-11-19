@@ -1,0 +1,30 @@
+{
+  "records": [
+    {
+      "id": "sense-review-01",
+      "definition_version": "v2",
+      "citations": [
+        {
+          "citation": "A",
+          "votes": [
+            {
+              "editor": "a",
+              "version": "v2",
+              "sense": "motion"
+            },
+            {
+              "editor": "b",
+              "version": "v2",
+              "sense": "noise"
+            },
+            {
+              "editor": "c",
+              "version": "v1",
+              "sense": "noise"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

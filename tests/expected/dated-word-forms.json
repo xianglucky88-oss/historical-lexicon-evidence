@@ -1,0 +1,23 @@
+[
+  {
+    "fact_id": "dated-word-forms-01",
+    "word_forms": {
+      "A": {
+        "lemma": "vels",
+        "candidates": [
+          "vels"
+        ]
+      },
+      "B": {
+        "lemma": "velst",
+        "candidates": [
+          "velst"
+        ]
+      },
+      "C": {
+        "lemma": null,
+        "candidates": []
+      }
+    }
+  }
+]

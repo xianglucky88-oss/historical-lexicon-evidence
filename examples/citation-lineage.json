@@ -1,0 +1,25 @@
+{
+  "records": [
+    {
+      "id": "citation-lineage-01",
+      "citations": [
+        {
+          "citation": "A",
+          "reprinted_from": null
+        },
+        {
+          "citation": "B",
+          "reprinted_from": "A"
+        },
+        {
+          "citation": "C",
+          "reprinted_from": "B"
+        },
+        {
+          "citation": "D",
+          "reprinted_from": "unlocated"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "fact_id": "sense-review-01",
+    "citations": {
+      "A": {
+        "status": "disputed",
+        "votes": {
+          "a": "motion",
+          "b": "noise"
+        },
+        "needs_recheck": [
+          "c"
+        ]
+      }
+    }
+  }
+]

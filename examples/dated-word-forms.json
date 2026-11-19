@@ -1,0 +1,43 @@
+{
+  "records": [
+    {
+      "id": "dated-word-forms-01",
+      "mappings": [
+        {
+          "form": "velst",
+          "region": "west",
+          "from_year": 1750,
+          "until_year": 1800,
+          "lemma": "vels"
+        },
+        {
+          "form": "velst",
+          "region": "west",
+          "from_year": 1800,
+          "until_year": 1850,
+          "lemma": "velst"
+        }
+      ],
+      "citations": [
+        {
+          "citation": "A",
+          "form": "velst",
+          "region": "west",
+          "year": 1780
+        },
+        {
+          "citation": "B",
+          "form": "velst",
+          "region": "west",
+          "year": 1800
+        },
+        {
+          "citation": "C",
+          "form": "velst",
+          "region": "east",
+          "year": 1780
+        }
+      ]
+    }
+  ]
+}

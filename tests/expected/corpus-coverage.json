@@ -1,0 +1,28 @@
+[
+  {
+    "fact_id": "corpus-coverage-01",
+    "coverage": [
+      {
+        "era": "1790s",
+        "genre": "letter",
+        "tokens": 800,
+        "uses": 5,
+        "per_million": null
+      },
+      {
+        "era": "1790s",
+        "genre": "press",
+        "tokens": 2000,
+        "uses": 2,
+        "per_million": 1000
+      },
+      {
+        "era": "1800s",
+        "genre": "press",
+        "tokens": 4000,
+        "uses": 4,
+        "per_million": 1000
+      }
+    ]
+  }
+]

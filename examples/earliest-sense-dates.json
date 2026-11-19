@@ -1,0 +1,44 @@
+{
+  "records": [
+    {
+      "id": "earliest-sense-dates-01",
+      "citations": [
+        {
+          "citation": "A",
+          "dates": [
+            {
+              "kind": "written",
+              "year_min": 1783,
+              "year_max": 1786
+            },
+            {
+              "kind": "edition",
+              "year_min": 1840,
+              "year_max": 1840
+            }
+          ]
+        },
+        {
+          "citation": "B",
+          "dates": [
+            {
+              "kind": "published",
+              "year_min": 1785,
+              "year_max": 1785
+            }
+          ]
+        },
+        {
+          "citation": "C",
+          "dates": [
+            {
+              "kind": "edition",
+              "year_min": 1750,
+              "year_max": 1750
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

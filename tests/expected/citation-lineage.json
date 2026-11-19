@@ -1,0 +1,38 @@
+[
+  {
+    "fact_id": "citation-lineage-01",
+    "citations": {
+      "A": {
+        "path": [
+          "A"
+        ],
+        "origin": "A"
+      },
+      "B": {
+        "path": [
+          "B",
+          "A"
+        ],
+        "origin": "A"
+      },
+      "C": {
+        "path": [
+          "C",
+          "B",
+          "A"
+        ],
+        "origin": "A"
+      },
+      "D": {
+        "path": [
+          "D",
+          "unlocated"
+        ],
+        "origin": null
+      }
+    },
+    "independent_origins": [
+      "A"
+    ]
+  }
+]

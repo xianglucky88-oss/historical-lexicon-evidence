@@ -1,0 +1,46 @@
+[
+  {
+    "fact_id": "earliest-sense-dates-01",
+    "citations": {
+      "A": {
+        "adopted": "written",
+        "evidence": {
+          "written": [
+            1783,
+            1786
+          ],
+          "edition": [
+            1840,
+            1840
+          ]
+        }
+      },
+      "B": {
+        "adopted": "published",
+        "evidence": {
+          "published": [
+            1785,
+            1785
+          ]
+        }
+      },
+      "C": {
+        "adopted": null,
+        "evidence": {
+          "edition": [
+            1750,
+            1750
+          ]
+        }
+      }
+    },
+    "earliest_range": [
+      1783,
+      1785
+    ],
+    "earliest_candidates": [
+      "A",
+      "B"
+    ]
+  }
+]
