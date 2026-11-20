@@ -1,17 +1,16 @@
 [
   {
-    "fact_id": "earliest-sense-dates-01",
     "citations": {
       "A": {
         "adopted": "written",
         "evidence": {
-          "written": [
-            1783,
-            1786
-          ],
           "edition": [
             1840,
             1840
+          ],
+          "written": [
+            1783,
+            1786
           ]
         }
       },
@@ -34,13 +33,259 @@
         }
       }
     },
+    "earliest_candidates": [
+      "A",
+      "B"
+    ],
     "earliest_range": [
       1783,
       1785
     ],
+    "fact_id": "earliest-sense-dates-01"
+  },
+  {
+    "citations": {
+      "E1": {
+        "fragments": {
+          "old": {
+            "adopted": null,
+            "evidence": {
+              "written": [
+                1750,
+                1750
+              ]
+            },
+            "origin": "E1/old",
+            "path": [
+              "E1/old"
+            ],
+            "reason": "old_sense",
+            "starting_edition": "初版 1750",
+            "status": "pending"
+          }
+        }
+      },
+      "E2": {
+        "fragments": {
+          "added": {
+            "adopted": "written",
+            "evidence": {
+              "edition": [
+                1800,
+                1800
+              ],
+              "written": [
+                1798,
+                1799
+              ]
+            },
+            "origin": "E2/added",
+            "path": [
+              "E2/added"
+            ],
+            "range": [
+              1798,
+              1799
+            ],
+            "reason": null,
+            "starting_edition": "修订本 1800",
+            "status": "dated"
+          },
+          "old": {
+            "adopted": null,
+            "evidence": {
+              "edition": [
+                1800,
+                1800
+              ]
+            },
+            "origin": "E1/old",
+            "path": [
+              "E2/old",
+              "E1/old"
+            ],
+            "reason": "shared_case",
+            "starting_edition": "初版 1750",
+            "status": "duplicate"
+          }
+        }
+      },
+      "Q": {
+        "fragments": {
+          "stance": {
+            "adopted": "written",
+            "evidence": {
+              "written": [
+                1799,
+                1799
+              ]
+            },
+            "origin": "Q/stance",
+            "path": [
+              "Q/stance"
+            ],
+            "range": [
+              1799,
+              1799
+            ],
+            "reason": null,
+            "starting_edition": "别集 1801",
+            "status": "dated"
+          }
+        }
+      },
+      "R": {
+        "fragments": {
+          "added": {
+            "adopted": null,
+            "evidence": {
+              "written": [
+                1700,
+                1700
+              ]
+            },
+            "origin": "R/added",
+            "path": [
+              "R/added"
+            ],
+            "reason": "stale_review",
+            "starting_edition": "钞本 1790",
+            "status": "pending"
+          }
+        }
+      },
+      "S1": {
+        "fragments": {
+          "added": {
+            "adopted": null,
+            "evidence": {
+              "edition": [
+                1850,
+                1850
+              ]
+            },
+            "origin": "E2/added",
+            "path": [
+              "S1/added",
+              "E2/added"
+            ],
+            "reason": "shared_case",
+            "starting_edition": "修订本 1800",
+            "status": "duplicate"
+          },
+          "old": {
+            "adopted": null,
+            "evidence": {
+              "edition": [
+                1850,
+                1850
+              ]
+            },
+            "origin": "E1/old",
+            "path": [
+              "S1/old",
+              "E2/old",
+              "E1/old"
+            ],
+            "reason": "shared_case",
+            "starting_edition": "初版 1750",
+            "status": "duplicate"
+          }
+        }
+      },
+      "T": {
+        "fragments": {
+          "added": {
+            "adopted": null,
+            "evidence": {},
+            "excluded_evidence": {
+              "written": [
+                1720,
+                1720
+              ]
+            },
+            "origin": "T/added",
+            "path": [
+              "T/added"
+            ],
+            "reason": "date_mismatch",
+            "starting_edition": "刻本 1795",
+            "status": "pending"
+          }
+        }
+      },
+      "X": {
+        "fragments": {
+          "added": {
+            "adopted": null,
+            "evidence": {
+              "written": [
+                1740,
+                1740
+              ]
+            },
+            "origin": null,
+            "path": [
+              "X/added"
+            ],
+            "reason": "relation_unconfirmed",
+            "starting_edition": null,
+            "status": "pending"
+          }
+        }
+      },
+      "Y": {
+        "fragments": {
+          "added": {
+            "adopted": null,
+            "evidence": {
+              "written": [
+                1730,
+                1730
+              ]
+            },
+            "origin": null,
+            "path": [
+              "Y/added",
+              "unlocated/added"
+            ],
+            "reason": "origin_unlocated",
+            "starting_edition": null,
+            "status": "pending"
+          }
+        }
+      }
+    },
     "earliest_candidates": [
-      "A",
-      "B"
+      "E2/added",
+      "Q/stance"
+    ],
+    "earliest_range": [
+      1798,
+      1799
+    ],
+    "fact_id": "earliest-sense-dates-fragments",
+    "pending": [
+      {
+        "fragment": "E1/old",
+        "reason": "old_sense"
+      },
+      {
+        "fragment": "R/added",
+        "reason": "stale_review"
+      },
+      {
+        "fragment": "T/added",
+        "reason": "date_mismatch"
+      },
+      {
+        "fragment": "X/added",
+        "reason": "relation_unconfirmed"
+      },
+      {
+        "fragment": "Y/added",
+        "reason": "origin_unlocated"
+      }
     ]
   }
 ]

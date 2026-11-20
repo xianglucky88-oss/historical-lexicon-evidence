@@ -39,6 +39,164 @@
           ]
         }
       ]
+    },
+    {
+      "id": "earliest-sense-dates-fragments",
+      "definition_version": "v3",
+      "sense": "新增义",
+      "citations": [
+        {
+          "citation": "E1",
+          "edition": "初版 1750",
+          "fragments": [
+            {
+              "fragment": "old",
+              "relation": "new",
+              "votes": [
+                {"editor": "a", "version": "v3", "sense": "旧义"},
+                {"editor": "b", "version": "v3", "sense": "旧义"}
+              ],
+              "dates": [
+                {"kind": "written", "year_min": 1750, "year_max": 1750}
+              ]
+            }
+          ]
+        },
+        {
+          "citation": "E2",
+          "edition": "修订本 1800",
+          "fragments": [
+            {
+              "fragment": "old",
+              "relation": "verbatim",
+              "copied_from": "E1/old",
+              "dates": [
+                {"kind": "edition", "year_min": 1800, "year_max": 1800}
+              ]
+            },
+            {
+              "fragment": "added",
+              "relation": "new",
+              "votes": [
+                {"editor": "a", "version": "v3", "sense": "新增义"},
+                {"editor": "b", "version": "v3", "sense": "新增义"}
+              ],
+              "dates": [
+                {"kind": "written", "year_min": 1798, "year_max": 1799},
+                {"kind": "edition", "year_min": 1800, "year_max": 1800}
+              ]
+            }
+          ]
+        },
+        {
+          "citation": "S1",
+          "edition": "选本 1850",
+          "reprinted_from": "E2",
+          "fragments": [
+            {
+              "fragment": "old",
+              "relation": "verbatim",
+              "copied_from": "E2/old",
+              "dates": [
+                {"kind": "edition", "year_min": 1850, "year_max": 1850}
+              ]
+            },
+            {
+              "fragment": "added",
+              "relation": "verbatim",
+              "copied_from": "E2/added",
+              "dates": [
+                {"kind": "edition", "year_min": 1850, "year_max": 1850}
+              ]
+            }
+          ]
+        },
+        {
+          "citation": "Q",
+          "edition": "别集 1801",
+          "fragments": [
+            {
+              "fragment": "stance",
+              "relation": "new",
+              "votes": [
+                {"editor": "a", "version": "v3", "sense": "新增义"},
+                {"editor": "c", "version": "v3", "sense": "新增义"}
+              ],
+              "dates": [
+                {"kind": "written", "year_min": 1799, "year_max": 1799}
+              ]
+            }
+          ]
+        },
+        {
+          "citation": "R",
+          "edition": "钞本 1790",
+          "fragments": [
+            {
+              "fragment": "added",
+              "relation": "new",
+              "votes": [
+                {"editor": "c", "version": "v2", "sense": "新增义"}
+              ],
+              "dates": [
+                {"kind": "written", "year_min": 1700, "year_max": 1700}
+              ]
+            }
+          ]
+        },
+        {
+          "citation": "T",
+          "edition": "刻本 1795",
+          "fragments": [
+            {
+              "fragment": "added",
+              "relation": "new",
+              "votes": [
+                {"editor": "a", "version": "v3", "sense": "新增义"},
+                {"editor": "b", "version": "v3", "sense": "新增义"}
+              ],
+              "dates": [
+                {"kind": "written", "year_min": 1720, "year_max": 1720, "applies_to": "T/other"}
+              ]
+            }
+          ]
+        },
+        {
+          "citation": "X",
+          "edition": "残本 1760",
+          "fragments": [
+            {
+              "fragment": "added",
+              "relation": "unconfirmed",
+              "votes": [
+                {"editor": "a", "version": "v3", "sense": "新增义"},
+                {"editor": "b", "version": "v3", "sense": "新增义"}
+              ],
+              "dates": [
+                {"kind": "written", "year_min": 1740, "year_max": 1740}
+              ]
+            }
+          ]
+        },
+        {
+          "citation": "Y",
+          "edition": "选本 1820",
+          "fragments": [
+            {
+              "fragment": "added",
+              "relation": "verbatim",
+              "copied_from": "unlocated/added",
+              "votes": [
+                {"editor": "a", "version": "v3", "sense": "新增义"},
+                {"editor": "b", "version": "v3", "sense": "新增义"}
+              ],
+              "dates": [
+                {"kind": "written", "year_min": 1730, "year_max": 1730}
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

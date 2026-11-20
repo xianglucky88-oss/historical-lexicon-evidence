@@ -1,17 +1,67 @@
 [
   {
-    "fact_id": "sense-review-01",
     "citations": {
       "A": {
+        "needs_recheck": [
+          "c"
+        ],
         "status": "disputed",
         "votes": {
           "a": "motion",
           "b": "noise"
-        },
-        "needs_recheck": [
-          "c"
-        ]
+        }
       }
-    }
+    },
+    "fact_id": "sense-review-01"
+  },
+  {
+    "citations": {
+      "E1": {
+        "fragments": {
+          "old": {
+            "needs_recheck": [],
+            "status": "agreed",
+            "votes": {
+              "a": "旧义",
+              "b": "旧义"
+            }
+          }
+        }
+      },
+      "E2": {
+        "fragments": {
+          "added": {
+            "needs_recheck": [],
+            "status": "disputed",
+            "votes": {
+              "a": "新增义",
+              "b": "新增义",
+              "c": "旧义"
+            }
+          },
+          "old": {
+            "needs_recheck": [
+              "b"
+            ],
+            "status": "pending",
+            "votes": {
+              "a": "旧义"
+            }
+          }
+        }
+      },
+      "S1": {
+        "fragments": {
+          "added": {
+            "needs_recheck": [],
+            "status": "pending",
+            "votes": {
+              "a": "新增义"
+            }
+          }
+        }
+      }
+    },
+    "fact_id": "sense-review-fragments"
   }
 ]

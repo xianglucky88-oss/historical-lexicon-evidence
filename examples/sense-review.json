@@ -25,6 +25,55 @@
           ]
         }
       ]
+    },
+    {
+      "id": "sense-review-fragments",
+      "definition_version": "v3",
+      "citations": [
+        {
+          "citation": "E1",
+          "fragments": [
+            {
+              "fragment": "old",
+              "votes": [
+                {"editor": "a", "version": "v3", "sense": "旧义"},
+                {"editor": "b", "version": "v3", "sense": "旧义"}
+              ]
+            }
+          ]
+        },
+        {
+          "citation": "E2",
+          "fragments": [
+            {
+              "fragment": "old",
+              "votes": [
+                {"editor": "a", "version": "v3", "sense": "旧义"},
+                {"editor": "b", "version": "v2", "sense": "旧义"}
+              ]
+            },
+            {
+              "fragment": "added",
+              "votes": [
+                {"editor": "a", "version": "v3", "sense": "新增义"},
+                {"editor": "b", "version": "v3", "sense": "新增义"},
+                {"editor": "c", "version": "v3", "sense": "旧义"}
+              ]
+            }
+          ]
+        },
+        {
+          "citation": "S1",
+          "fragments": [
+            {
+              "fragment": "added",
+              "votes": [
+                {"editor": "a", "version": "v3", "sense": "新增义"}
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

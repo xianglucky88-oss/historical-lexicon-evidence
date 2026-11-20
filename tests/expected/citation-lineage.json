@@ -1,38 +1,154 @@
 [
   {
-    "fact_id": "citation-lineage-01",
     "citations": {
       "A": {
+        "origin": "A",
         "path": [
           "A"
-        ],
-        "origin": "A"
+        ]
       },
       "B": {
+        "origin": "A",
         "path": [
           "B",
           "A"
-        ],
-        "origin": "A"
+        ]
       },
       "C": {
+        "origin": "A",
         "path": [
           "C",
           "B",
           "A"
-        ],
-        "origin": "A"
+        ]
       },
       "D": {
+        "origin": null,
         "path": [
           "D",
           "unlocated"
-        ],
-        "origin": null
+        ]
       }
     },
+    "fact_id": "citation-lineage-01",
     "independent_origins": [
       "A"
+    ]
+  },
+  {
+    "citations": {
+      "E1": {
+        "fragments": {
+          "old": {
+            "origin": "E1/old",
+            "path": [
+              "E1/old"
+            ],
+            "reason": null,
+            "starting_edition": "初版 1750",
+            "status": "confirmed"
+          }
+        },
+        "origin": "E1",
+        "path": [
+          "E1"
+        ]
+      },
+      "E2": {
+        "fragments": {
+          "added": {
+            "origin": "E2/added",
+            "path": [
+              "E2/added"
+            ],
+            "reason": null,
+            "starting_edition": "修订本 1800",
+            "status": "confirmed"
+          },
+          "old": {
+            "origin": "E1/old",
+            "path": [
+              "E2/old",
+              "E1/old"
+            ],
+            "reason": null,
+            "starting_edition": "初版 1750",
+            "status": "confirmed"
+          }
+        },
+        "origin": null,
+        "path": [
+          "E2"
+        ]
+      },
+      "S1": {
+        "fragments": {
+          "added": {
+            "origin": "E2/added",
+            "path": [
+              "S1/added",
+              "E2/added"
+            ],
+            "reason": null,
+            "starting_edition": "修订本 1800",
+            "status": "confirmed"
+          },
+          "old": {
+            "origin": "E1/old",
+            "path": [
+              "S1/old",
+              "E2/old",
+              "E1/old"
+            ],
+            "reason": null,
+            "starting_edition": "初版 1750",
+            "status": "confirmed"
+          }
+        },
+        "origin": null,
+        "path": [
+          "S1",
+          "E2"
+        ]
+      },
+      "S2": {
+        "fragments": {
+          "added": {
+            "origin": "E2/added",
+            "path": [
+              "S2/added",
+              "S1/added",
+              "E2/added"
+            ],
+            "reason": null,
+            "starting_edition": "修订本 1800",
+            "status": "confirmed"
+          },
+          "old": {
+            "origin": "E1/old",
+            "path": [
+              "S2/old",
+              "S1/old",
+              "E2/old",
+              "E1/old"
+            ],
+            "reason": null,
+            "starting_edition": "初版 1750",
+            "status": "confirmed"
+          }
+        },
+        "origin": null,
+        "path": [
+          "S2",
+          "S1",
+          "E2"
+        ]
+      }
+    },
+    "fact_id": "citation-lineage-fragments",
+    "independent_origins": [
+      "E1/old",
+      "E2/added"
     ]
   }
 ]
